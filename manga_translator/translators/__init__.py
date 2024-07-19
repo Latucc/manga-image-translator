@@ -4,9 +4,9 @@ from .common import *
 from .baidu import BaiduTranslator
 # from .google import GoogleTranslator
 from .youdao import YoudaoTranslator
-from .deepl import DeeplTranslator
-from .papago import PapagoTranslator
-from .caiyun import CaiyunTranslator
+# from .deepl import DeeplTranslator
+# from .papago import PapagoTranslator
+# from .caiyun import CaiyunTranslator
 from .chatgpt import GPT3Translator, GPT35TurboTranslator, GPT4Translator
 from .nllb import NLLBTranslator, NLLBBigTranslator
 from .sugoi import JparacrawlTranslator, JparacrawlBigTranslator, SugoiTranslator
@@ -33,15 +33,15 @@ TRANSLATORS = {
     # 'google': GoogleTranslator,
     'youdao': YoudaoTranslator,
     'baidu': BaiduTranslator,
-    'deepl': DeeplTranslator,
-    'papago': PapagoTranslator,
-    'caiyun': CaiyunTranslator,
-    'gpt3': GPT3Translator,
-    'gpt3.5': GPT35TurboTranslator,
-    'gpt4': GPT4Translator,
-    'none': NoneTranslator,
-    'original': OriginalTranslator,
-    'sakura': SakuraTranslator,
+    # 'deepl': DeeplTranslator,
+    # 'papago': PapagoTranslator,
+    # 'caiyun': CaiyunTranslator,
+    # 'gpt3': GPT3Translator,
+    # 'gpt3.5': GPT35TurboTranslator,
+    # 'gpt4': GPT4Translator,
+    # 'none': NoneTranslator,
+    # 'original': OriginalTranslator,
+    # 'sakura': SakuraTranslator,
     **OFFLINE_TRANSLATORS,
 }
 translator_cache = {}
